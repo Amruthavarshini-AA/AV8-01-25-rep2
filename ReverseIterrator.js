@@ -5,7 +5,7 @@ function reverseIterator(arr){
             return{
                 next(){
                     if(count>=0){
-                        return{value:arr[coumt--],done:false}
+                        return{value:arr[count--],done:false}
                     }
                     else{
                         return{done:true}
